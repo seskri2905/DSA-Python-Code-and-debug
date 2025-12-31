@@ -1,4 +1,4 @@
-n = 2
+n = 5
 
 num = n
 
@@ -7,4 +7,6 @@ def fact(num):
         return 1
     return num * fact(num - 1)
 
-print(f'The factorial of {num} is {fact(num)}')
+result = fact(num)
+
+print(f'The factorial of {num} is {result}')
