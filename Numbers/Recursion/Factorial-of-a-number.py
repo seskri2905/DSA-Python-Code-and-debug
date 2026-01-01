@@ -1,9 +1,9 @@
-n = 5
+n = -1
 
-num = n
+num = abs(n)
 
 def fact(num):
-    if (num == 1):
+    if (num == 1 or num == 0):
         return 1
     return num * fact(num - 1)
 
