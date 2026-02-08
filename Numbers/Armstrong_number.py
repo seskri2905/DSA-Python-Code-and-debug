@@ -17,7 +17,7 @@ while num > 0:
     is_armstrong = is_armstrong + math.pow(mod,count)
     num = num // 10
 
-if n == is_armstrong:
+if num == is_armstrong:
     print('It is a armstrong number')
 else:
     print('It is not a armstrong number') """
@@ -37,7 +37,7 @@ while num > 0:
     is_armstrong = is_armstrong + math.pow(mod,number_of_digit)
     num = num // 10
 
-if n == is_armstrong:
+if num == is_armstrong:
     print('It is a armstrong number')
 else:
     print('It is not an armstrong number')

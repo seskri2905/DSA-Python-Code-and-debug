@@ -37,4 +37,4 @@ for i in range(0,n):
 print(second_largest)
 
 """ Time Complexity = O(N)
-    Space Compplexity = O(1) """
+    Space Complexity = O(1) """
