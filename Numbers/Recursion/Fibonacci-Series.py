@@ -1,4 +1,4 @@
-n = 16
+n = 5
 num = n
 
 def fibonacciOfANumber(num):
@@ -8,4 +8,4 @@ def fibonacciOfANumber(num):
 
 result = fibonacciOfANumber(num)
 
-print(f'The Fibobacci of {num} is {result}')
+print(f'The Fibonacci of {num} is {result}')
